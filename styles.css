@@ -15,7 +15,7 @@ body {
 
 /* Sidebar Styles */
 .sidebar {
-    background-color: #4e342e;  /* Dark brown for sidebar */
+    background-color: #009933;  /* Dark green for sidebar */
     width: 100%;
     padding: 10px 0;
     position: sticky;
@@ -41,7 +41,7 @@ body {
 }
 
 .sidebar ul li a:hover {
-    background-color: #5e4b42;  /* Lighter brown hover effect */
+    background-color: #00ff00;  /* Lighter green hover effect */
     border-radius: 5px;
 }
 
@@ -54,7 +54,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #4e342e;  /* Dark brown header */
+    background-color: #009933;  /* Dark green header */
     color: #fff;
     text-align: center;
     padding: 40px 0;
@@ -81,15 +81,6 @@ section h2 {
 
 .about-me p {
     font-size: 1.2em;
-}
-
-/* Profile Image Styles */
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    object-fit: cover;
 }
 
 /* Contact Section */
