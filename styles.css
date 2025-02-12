@@ -115,3 +115,36 @@ footer {
 footer p {
     font-size: 1em;
 }
+
+/* Glow Animation */
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+    }
+    50% {
+        text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    }
+    100% {
+        text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+    }
+}
+
+/* Applying glow animation to header h1 */
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Sidebar Links Glow Animation */
+.sidebar ul li a:hover {
+    background-color: #00ff00;  /* Lighter green hover effect */
+    border-radius: 5px;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+/* Optional: Glow effect for links in contact section */
+.contact a:hover {
+    text-decoration: underline;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
