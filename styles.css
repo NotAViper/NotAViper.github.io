@@ -1,0 +1,126 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;  /* Lighter background color for the rest of the page */
+    color: #333;  /* Default text color */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #4e342e;  /* Dark brown for sidebar */
+    width: 100%;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.sidebar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 0 15px;
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #5e4b42;  /* Lighter brown hover effect */
+    border-radius: 5px;
+}
+
+/* Container (for consistent width) */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header Styles */
+header {
+    background-color: #4e342e;  /* Dark brown header */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* About Me Section */
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.2em;
+}
+
+/* Profile Image Styles */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+/* Contact Section */
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #333;  /* Dark text color for readability */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;  /* Dark footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1em;
+}
